@@ -3,8 +3,8 @@ from telegram import Bot
 import subprocess
 import time
 
-bot = Bot(token='your_telegram_bot_token')
-chat_id = 'your_chat_id'
+bot = Bot(token='6704929353:AAFl1FiJyq3aQ39JFP_nFRRtrcCytdYR5IM')
+chat_id = '1299724072'
 
 async def send_to_telegram(content):
     await bot.send_message(chat_id=chat_id, text=content)
